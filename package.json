@@ -1,0 +1,36 @@
+{
+  "name": "weighted-pick",
+  "version": "0.1.0",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint . && tsc --noEmit -p jsconfig.json",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "weighted",
+    "random",
+    "pick",
+    "array",
+    "utility"
+  ],
+  "homepage": "https://github.com/travishorn/weighted-pick#readme",
+  "bugs": "https://github.com/travishorn/weighted-pick/issues",
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/weighted-pick.git"
+  },
+  "license": "MIT",
+  "description": "A simple JavaScript module for picking items from an array based on their weights.",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.5"
+  }
+}
